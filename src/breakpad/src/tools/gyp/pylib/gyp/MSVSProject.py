@@ -7,8 +7,8 @@
 """Visual Studio project reader/writer."""
 
 import common
-import xml.dom
-import xml.dom.minidom
+import defusedxml.dom
+import defusedxml.dom.minidom
 import MSVSNew
 
 #------------------------------------------------------------------------------
